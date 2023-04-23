@@ -23,6 +23,10 @@
     i#burger{
         display: none;
     }
+
+    header h1{
+        text-align: left;
+    }
     
     header menu{
         display: block;

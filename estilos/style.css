@@ -4,11 +4,19 @@
     margin: 0px;
     padding: 0px;
 }
-
+/*@font-face {
+    font-family: "escolar";
+    src: url("../fontes/Cream\ Cake.otf") format("opentype");
+}*/
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+body{
+    background: url("../imagem/escola.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 a{
     text-decoration: none;
@@ -20,16 +28,18 @@ header{
     padding-bottom: 1px;
 }
 header h1{
-    font-family: 'Dancing Script', cursive;
+    font-variant: small-caps;
+    font-family: 'escolar', "Times";
     padding-top: 10px;
     padding-left: 10px;
-    font-variant: small-caps;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(66, 6, 134, 0.521);
 }
 header > h1 > a{
-    color: rgb(6, 32, 116);
+    color: rgb(64, 4, 99);
 }
 header > h1 > a:hover{
-    color: rgb(13, 47, 160);
+    color: rgb(106, 13, 160);
 }
 header h2{
     margin: 10px;
