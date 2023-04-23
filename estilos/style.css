@@ -9,9 +9,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-body{
-    
-}
 
 header{
     background-color: rgb(37, 241, 37);
@@ -52,7 +49,7 @@ menu{
     background-color: rgb(109, 253, 73);
     padding: 5px;
     text-align: center;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
  }
 
 
@@ -63,7 +60,7 @@ a{
 
 div#conteudo{
     height: 350px;
-   background-color: rgb(248, 168, 20);
+   background-image: linear-gradient(to top, rgb(252, 203, 113), rgb(248, 168, 20));
    padding-bottom: 60px;
    
 }
@@ -99,13 +96,13 @@ div a:hover{
 }
 
 main{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
 aside{
     height: 300px;
-    background: url("../imagem/escola.jpg")  center no-repeat;
+    background: url("../imagem/escola.jpg") center no-repeat;
     background-size: cover;
     text-align: center;
     padding-top: 20px;
@@ -115,7 +112,7 @@ aside{
 div#materia{
     height: 250px;
     width: 300px;
-    background-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.575);
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
     position: absolute;
@@ -143,7 +140,7 @@ aside a:hover{
 }
 
 footer{
-    background-color: rgb(41, 41, 185);
+    background-image: linear-gradient(to bottom, rgb(23, 23, 206),  rgb(41, 41, 185));
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -167,8 +164,10 @@ footer a:hover{
 }
 
 footer img{
-    height: 50px;
+    height: 30px;
     margin: auto;
     margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.781);
 }
