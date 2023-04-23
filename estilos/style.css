@@ -1,7 +1,174 @@
 /* para celular  */
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body{
+    
+}
+
+header{
+    background-color: rgb(37, 241, 37);
+    padding-bottom: 1px;
+    
+}
+header h1{
+    font-family: 'Dancing Script', cursive;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-variant: small-caps;
+}
+header > h1 > a{
+    color: rgb(6, 32, 116);
+}
+header > h1 > a:hover{
+    color: rgb(13, 47, 160);
+}
+header h2{
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > menu > a{
+    margin-right: 60px;  
+    font-size: 20px;
+    color: black;
+ 
+}
+header > menu > a:hover{
+    color: rgb(56, 58, 57);
+}
+menu{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    background-color: rgb(109, 253, 73);
+    padding: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+ }
+
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div#conteudo{
+    height: 350px;
+   background-color: rgb(248, 168, 20);
+   padding-bottom: 60px;
+   
+}
+div h1{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+div p{
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+div > ul {
+    text-align: center;
+    columns: 2;
+    list-style-type: none;
+    margin-left: 10px;
+    font-size: 1.5em;
+    
+}
+div li{
+    padding-bottom: 25px;
+    
+}
+div a{
+    color: rgb(56, 58, 57);
+}
+div a:hover{
+    color: rgb(107, 108, 109);
+}
+
+main{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+aside{
+    height: 300px;
+    background: url("../imagem/escola.jpg")  center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+div#materia{
+    height: 250px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+aside h1{
+    font-size: 1.8em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+aside p{
+    line-height: 1.2em;
+    padding-top: 1px;
+    font-size: 1.5em;
+}
+aside a{
+    color: rgb(0, 60, 255);
+}
+aside a:hover{
+    color: rgb(55, 84, 180);
+}
+
+footer{
+    background-color: rgb(41, 41, 185);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    columns: 2;
+     
+}
+footer li{
+    padding: 10px;
+    font-size: 1.2em;
+   
+}
+footer a{
+    color: aliceblue;
+}
+footer a:hover{
+    color: rgb(208, 212, 216);
+}
+
+footer img{
+    height: 50px;
+    margin: auto;
+    margin: 10px;
+    border-radius: 50%;
 }
