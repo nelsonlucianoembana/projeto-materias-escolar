@@ -7,18 +7,22 @@
     <title>Conteúdos Escolares</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1><a href="">Matérias  Escolares</a></h1>
         <h2>Escolha o Conteúdo da sua Preferência</h2>
-           <menu>
-               <a href="#">Matemática</a>
-               <a href="#">Física</a>
-               <a href="#">Química</a>
-               <a href="#">Biologia</a>
-               <a href="#">História</a>
-               <a href="#">Geografia</a>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+           <menu id="itens">
+               <ul>
+                   <li><a href="#">Matemática</a></li>
+                   <li><a href="#">Física</a></li>
+                   <li><a href="#">Química</a></li>
+                   <li><a href="#">Biologia</a></li>
+                   <li><a href="#">História</a></li>
+                   <li><a href="#">Geografia</a></li>
+               </ul>
            </menu>
     </header>
 
@@ -83,5 +87,21 @@
         </a>
         </p>
     </footer>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            } else{
+                itens.style.display = "block"
+            }
+        }
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = "block"
+            } else {
+                itens.style.display = "none"
+            }
+        }
+    </script>
 </body>
 </html>
