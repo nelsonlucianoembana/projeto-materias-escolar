@@ -39,6 +39,7 @@
     header > menu > ul > li{
         display: inline-block;
         font-size: 1.2em;
+        background: none;
     }
     header > menu > ul > li > a{
         text-align: center;

@@ -67,6 +67,7 @@ header > menu > ul > li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     font-weight: bold;
+    background-color: rgba(143, 231, 180, 0.24);
 }
 
 header > menu > ul > li > a{
@@ -120,7 +121,6 @@ div > ul {
 }
 div li{
     padding-bottom: 25px;
-   
 }
 div#conteudo a{
     color: rgb(56, 58, 57);
@@ -200,7 +200,7 @@ footer a.lista{
     
 }
 footer a:hover{
-    color: rgb(69, 70, 71);
+    color: rgb(28, 28, 29);
     
 }
 
