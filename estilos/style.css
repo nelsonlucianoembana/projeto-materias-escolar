@@ -59,9 +59,11 @@ header menu{
 header > menu > ul {
     text-align: center;
     list-style-type: none;
+    
 }
 
 header > menu > ul > li{
+   
     padding: 10px;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -78,11 +80,11 @@ header > menu > ul > li > a:hover{
     color: rgb(0, 0, 0);
 }
 
-main{
-   /* background: url("../imagem/escola01.jpg") center no-repeat;
+/*main{
+    background: url("../imagem/escola01.jpg") center no-repeat;
     background-size: cover;
-    background-attachment: fixed;*/
-}
+    background-attachment: fixed;
+}*/
 
 li.geo{
     display: none;
