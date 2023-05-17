@@ -59,11 +59,11 @@ header menu{
 header > menu > ul {
     text-align: center;
     list-style-type: none;
-    
+      
 }
 
 header > menu > ul > li{
-   
+    border-radius: 10px; 
     padding: 10px;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,19 +80,19 @@ header > menu > ul > li > a:hover{
     color: rgb(0, 0, 0);
 }
 
-/*main{
+main{
     background: url("../imagem/escola01.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}*/
+}
 
 li.geo{
     display: none;
 }
 div#conteudo{
     height: 350px;
-    background-color: rgb(248, 168, 20);
-    /*background: url("../imagem/escola01.jpg") center center /no-repeat;
+   /* background-color: white;
+    background: url("../imagem/escola01.jpg") center center /no-repeat;
     background-size: cover;
     background-attachment: fixed;*/
     padding-bottom: 60px;
@@ -101,14 +101,14 @@ div#conteudo{
 div h1{
     padding-top: 10px;
     text-align: center;
-    color: rgb(105, 100, 100);
+    color: rgb(255, 255, 255);
 }
 div p{
     text-align: center;
     font-weight: bold;
     margin: auto;
     padding-bottom: 10px;
-    color: rgb(105, 100, 100);
+    color: rgb(255, 255, 255);
 }
 div > ul {
     text-align: center;
@@ -117,7 +117,7 @@ div > ul {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 1.5em;
-    background-color: rgba(184, 82, 82, 0.856);
+    background-color: rgba(157, 184, 82, 0.507);
     border-radius: 5px;
     padding-top: 10px;
 }
@@ -125,10 +125,10 @@ div li{
     padding-bottom: 25px;
 }
 div#conteudo a{
-    color: rgb(56, 58, 57);
+    color: rgb(0, 0, 0);
 }
 div#conteudo a:hover{
-    color: rgb(36, 37, 37);
+    color: rgb(40, 43, 43);
 }
 
 main{
@@ -138,9 +138,8 @@ main{
 }
 aside{
     height: 300px;
-   /* background: url("../imagem/escola.jpg") center no-repeat;
+    /*background: url("../imagem/escola.jpg") center no-repeat;
     background-size: cover;*/
-    background-color: aqua;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -179,7 +178,7 @@ aside a:hover{
 }
 
 footer{
-    background-color: rgb(17, 14, 238);
+    background-image:linear-gradient(to bottom, blue, rgb(54, 54, 153));
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
